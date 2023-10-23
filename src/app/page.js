@@ -5,14 +5,16 @@ import Main from './components/Main'
 import About from './components/About'
 import Skills from './components/skills'
 import Contact from './components/contact'
+import Projects from './components/Projects'
 
 export default function Home() {
   return (
-    <div> 
+    <div className='scroll-smooth'> 
       
       <Navbar />
       <Main />
       <About />
+      <Projects />
       <Skills/>
       <Contact/>
 

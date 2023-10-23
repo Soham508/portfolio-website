@@ -1,11 +1,13 @@
-
-
-import React from 'react';
+"use client"
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 
 const About = () => {
+   const [x, setX] = useState(null);
+   const [y, setY] = useState(null);
+
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
@@ -38,11 +40,13 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className='w-{0.8} h-auto m-4 pt-2 pb-2  shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-2 hover:scale-105 ease-in duration-300 ml-10  '>
+        <div onMouseMove={(e) => {setX(e.pageX/200); setY(e.pageY/280); console.log(x,y)}} 
+         className={`w-0.8 h-auto -translate-x-[15px] md:h-max md:translate-y-20 m-4 pt-2 pb-2 shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-2 hover:scale-105 ease-in duration-300 ml-10`}>
           <Image src={'/../public/assets/developer.png'} 
           height={110}
           width={350}
           alt='/'
+          id='IMG'
           />
         </div>
       </div>

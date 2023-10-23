@@ -16,35 +16,35 @@ const Navbar = () => {
 
 
   return (
-<div className='fixed w-full h-20 shadow-lg z-[100]'>
-    <div className='flex justify-between items-center w-full h-full  px-2 2xl:px-16 '  >
+<div className='fixed  w-full h-20 shadow-lg z-[100]'>
+    <div className='flex items-center w-full h-full  px-2 2xl:px-16 '  >
        <button>
        <Image
        src='/../public/assets/logo.png' 
        alt='/'
        height={50}
-       width={80}
+       width={70}
        
-       className='opacity-80 shadow-2lx rounded-lg hover:scale-110 cursor-pointer'
+       className='opacity-80 shadow-2lx rounded-lg hover:scale-110 duration-500 cursor-pointer'
        />
        </button>
-       <div>
-          <ul className='md:flex hidden '>
+       <div className='md:ml-[30%] ml-[60%] '>
+          <ul className='md:flex hidden p-4'>
 
             <Link href='#home'> 
-            <li className='ml-10 uppercase text-sm hover:scale-110 hover:bg-indigo-100 p-3 bg-indigo-500 text-slate-200  hover:text-indigo-500 hover:border-2 hover:border-indigo-500  rounded-lg'> Home </li> </Link>
+            <li className='ml-10 m-3 uppercase text-sm hover:scale-105 duration-500 hover:bg-indigo-100 p-3 bg-indigo-500 text-slate-200  hover:text-indigo-500 hover:border-2 hover:border-indigo-500  rounded-lg'> Home </li> </Link>
 
             <Link href='#about'> 
-            <li className='ml-10 uppercase text-sm hover:scale-110 bg-indigo-500 p-3 text-slate-200 hover:bg-indigo-100 hover:text-indigo-500 hover:border-2 hover:border-indigo-500 rounded-lg'> About </li> </Link>
+            <li className='ml-10 m-3 uppercase text-sm hover:scale-105 duration-500 bg-indigo-500 p-3 text-slate-200 hover:bg-indigo-100 hover:text-indigo-500 hover:border-2 hover:border-indigo-500 rounded-lg'> About </li> </Link>
 
             <Link href='#skills'> 
-            <li className='ml-10 uppercase text-sm hover:scale-110 bg-indigo-500 p-3 hover:bg-indigo-100 text-slate-200 hover:text-indigo-500 hover:border-2 hover:border-indigo-500 rounded-lg'> Skills </li> </Link>
+            <li className='ml-10 m-3 uppercase text-sm hover:scale-105 duration-500 bg-indigo-500 p-3 hover:bg-indigo-100 text-slate-200 hover:text-indigo-500 hover:border-2 hover:border-indigo-500 rounded-lg'> Skills </li> </Link>
 
             <Link href='#projects'> 
-            <li className='ml-10 uppercase text-sm hover:scale-110 hover:bg-indigo-100 bg-indigo-500 p-3 text-slate-200 hover:text-indigo-500 hover:border-2 hover:border-indigo-500 rounded-lg'> Projects </li> </Link>
+            <li className='ml-10 m-3 uppercase text-sm hover:scale-105 duration-500 hover:bg-indigo-100 bg-indigo-500 p-3 text-slate-200 hover:text-indigo-500 hover:border-2 hover:border-indigo-500 rounded-lg'> Projects </li> </Link>
 
             <Link href='#contact'> 
-            <li className='ml-10 uppercase text-sm hover:scale-110 hover:bg-indigo-100 p-3 bg-indigo-500 text-slate-200  hover:text-indigo-500 hover:border-2 hover:border-indigo-500 rounded-lg'> Contact </li> </Link>
+            <li className='ml-10 m-3 uppercase text-sm hover:scale-105 duration-500 hover:bg-indigo-100 p-3 bg-indigo-500 text-slate-200  hover:text-indigo-500 hover:border-2 hover:border-indigo-500 rounded-lg'> Contact </li> </Link>
            </ul>
           <div           
             onClick={handleNav}
