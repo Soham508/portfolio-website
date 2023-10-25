@@ -27,6 +27,7 @@ const Card = ({ img, title, description, id, stack }) => {
         <div className="h-full flex flex-col items-center w-full bg-slate-300">
           <div className="w-full h-[40%] flex  items-center justify-center">
             <Image
+              alt={title}
               src={img}
               width={300}
               className="w-full h-full rounded-sm  translate-y-[37x] "
@@ -45,6 +46,7 @@ const Card = ({ img, title, description, id, stack }) => {
             <div className="flex justify-between items-center gap-2">
               {stack.map((s) => (
                 <span
+                  key={s}
                   id={id}
                   className="p-2 hover:bg-rose-400/40 cursor-pointer rounded-xl"
                 >
@@ -79,13 +81,11 @@ const Projects = () => {
       <div id="projects" className="w-full">
         <div className="w-full h-16">
           <h1 className="text-center bg-gradient-to-r from-blue-600 to-indigo-300 h-full text-transparent text-4xl font-sans font-bold bg-clip-text text-g">
-            
             Projects
           </h1>
         </div>
         <div className="w-full mt-10 md:h-screen">
           <div className="grid grid-cols-1 gap-10 md:ml-[5%] items-center md:grid-cols-3">
-          
             <Card
               img={"/../public/assets/Estore.jpg"}
               id={1}
@@ -106,8 +106,7 @@ const Projects = () => {
               }
             />
 
-            
-           <Card
+            <Card
               img={"/../public/assets/Estore.jpg"}
               id={2}
               stack={["MongoDb", "React", "NodeJs", "Express"]}
