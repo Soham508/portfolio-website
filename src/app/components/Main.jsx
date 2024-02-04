@@ -1,19 +1,15 @@
-
-
-import Link from 'next/link';
-import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import Link from "next/link";
+import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600">
-            LET&#39;S BUILD SOMETHING TOGETHER
-          </p>
+          <p className="uppercase text-sm tracking-widest text-gray-600"></p>
           <h1 className="py-4 text-gray-700">
             Hi, I&#39;m{" "}
             <span className="py-2 bg-gradient-to-r from-blue-600 to-indigo-400 inline-block text-transparent bg-clip-text">
@@ -50,40 +46,40 @@ const Main = () => {
         </div>
       </div>
       {
-      //  <div class="flex  top-0 justify-center -space-x-14">
-      //    <div class="mix-blend-multiply rounded-full h-28 w-80 flex items-center justify-center bg-blue-400/70 ...">
-      //      {" "}
-      //      <span className="font-semibold text-xl text-center font-serif text-blue-500 ">
-      //        {" "}
-      //        Web developer
-      //      </span>{" "}
-      //    </div>
-      //    <div class="mix-blend-multiply rounded-full h-28 w-80 flex items-center justify-center bg-yellow-400/70 ...">
-      //      <span className="font-semibold text-xl text-center font-serif text-yellow-500 ">
-      //        {" "}
-      //        Web developer
-      //      </span>
-      //    </div>
-      //    <div class="mix-blend-multiply rounded-full h-28 w-80 flex items-center justify-center bg-red-400/70 ...">
-      //      {" "}
-      //      <span className="font-semibold text-xl text-center font-serif text-red-500 ">
-      //        {" "}
-      //        Web developer
-      //      </span>
-      //    </div>
-      //    <div class="mix-blend-multiply rounded-full h-28 w-80 flex items-center justify-center bg-pink-400/70 ...">
-      //      <span className="font-semibold text-xl text-center font-serif text-pink-500 ">
-      //        {" "}
-      //        Web developer
-      //      </span>
-      //    </div>
-      //    <div class="mix-blend-multiply rounded-full h-28 w-80 flex items-center justify-center bg-violet-400/70 ...">
-      //      <span className="font-semibold text-xl text-center font-serif text-violet-500 ">
-      //        {" "}
-      //        Web developer
-      //      </span>
-      //    </div>
-      //  </div>
+        //  <div class="flex  top-0 justify-center -space-x-14">
+        //    <div class="mix-blend-multiply rounded-full h-28 w-80 flex items-center justify-center bg-blue-400/70 ...">
+        //      {" "}
+        //      <span className="font-semibold text-xl text-center font-serif text-blue-500 ">
+        //        {" "}
+        //        Web developer
+        //      </span>{" "}
+        //    </div>
+        //    <div class="mix-blend-multiply rounded-full h-28 w-80 flex items-center justify-center bg-yellow-400/70 ...">
+        //      <span className="font-semibold text-xl text-center font-serif text-yellow-500 ">
+        //        {" "}
+        //        Web developer
+        //      </span>
+        //    </div>
+        //    <div class="mix-blend-multiply rounded-full h-28 w-80 flex items-center justify-center bg-red-400/70 ...">
+        //      {" "}
+        //      <span className="font-semibold text-xl text-center font-serif text-red-500 ">
+        //        {" "}
+        //        Web developer
+        //      </span>
+        //    </div>
+        //    <div class="mix-blend-multiply rounded-full h-28 w-80 flex items-center justify-center bg-pink-400/70 ...">
+        //      <span className="font-semibold text-xl text-center font-serif text-pink-500 ">
+        //        {" "}
+        //        Web developer
+        //      </span>
+        //    </div>
+        //    <div class="mix-blend-multiply rounded-full h-28 w-80 flex items-center justify-center bg-violet-400/70 ...">
+        //      <span className="font-semibold text-xl text-center font-serif text-violet-500 ">
+        //        {" "}
+        //        Web developer
+        //      </span>
+        //    </div>
+        //  </div>
       }
     </div>
   );
