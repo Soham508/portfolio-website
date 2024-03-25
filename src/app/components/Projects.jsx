@@ -97,22 +97,22 @@ const Projects = () => {
             />
 
             <Card
-              img={"/../public/assets/Estore.jpg"}
+              img={"/../public/assets/globe.jpg"}
               id={2}
-              stack={["MongoDb", "React", "NodeJs", "Express"]}
-              title={"2nd"}
+              stack={["MongoDb", "NextJs", "Tailwind"]}
+              title={"World ranks"}
               description={
-                "This is an ecommcerce platform project with admin panel, fully customizable content with features like payment gateway, wishlist, search bar, recommendations etc."
+                "This is an information platform mainly concerned of geographical and econonimical data for different countries"
               }
             />
 
             <Card
-              img={"/../public/assets/Estore.jpg"}
+              img={"/../public/assets/chatApp.jpg"}
               id={2}
-              stack={["MongoDb", "React", "NodeJs", "Express"]}
-              title={"2nd"}
+              stack={["Socket.io", "HTML", "CSS"]}
+              title={"Raw chat app"}
               description={
-                "This is an ecommcerce platform project with admin panel, fully customizable content with features like payment gateway, wishlist, search bar, recommendations etc."
+                "This is an chat app that is purely written with html, css and javascript with web sockets technology. It does not store chat data, multiples users can join a single room for annonymous chat"
               }
             />
           </div>
