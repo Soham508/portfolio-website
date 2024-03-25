@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="flex items-center w-full h-full  px-2 2xl:px-16 max-md:justify-between ">
         <button className="">
           <Image
-            src="/../public/assets/logo.png"
+            src="/../public/logo.png"
             alt="/"
             height={50}
             width={70}

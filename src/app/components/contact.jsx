@@ -23,7 +23,7 @@ const Contact = () => {
               <div>
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="/../public/assets/contact.png"
+                  src="/../public/contact.png"
                   width={84}
                   height={60}
                   alt="/"
