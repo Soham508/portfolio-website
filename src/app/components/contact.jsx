@@ -33,7 +33,7 @@ const Contact = () => {
                 <h2 className="py-2 bg-gradient-to-r from-blue-600 to-indigo-300 inline-block text-transparent bg-clip-text">
                   Soham
                 </h2>
-                <p>Full Developer</p>
+                <p>Full Stack Developer</p>
                 <p className="py-4">
                   I am available for developing full stack application with
                   modern technologies.
@@ -43,7 +43,7 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                    href="https://www.linkedin.com/in/soham-ghige-869455252/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -52,7 +52,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href="https://github.com/fireclint"
+                    href="https://github.com/Soham508"
                     target="_blank"
                     rel="noreferrer"
                   >

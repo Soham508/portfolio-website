@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import logo from "./../../../public/logo.png";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -19,7 +20,7 @@ const Navbar = () => {
       <div className="flex items-center w-full h-full  px-2 2xl:px-16 max-md:justify-between ">
         <button className="">
           <Image
-            src="/../public/logo.png"
+            src={logo}
             alt="/"
             height={50}
             width={70}

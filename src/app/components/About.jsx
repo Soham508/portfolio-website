@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import developerPic from "./../../../public/developer.png";
 
 const About = () => {
   const [x, setX] = useState(null);
@@ -47,13 +48,7 @@ const About = () => {
           }}
           className={`w-0.8 h-auto -translate-x-[15px] md:h-max md:translate-y-20 m-4 pt-2 pb-2 shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-2 hover:scale-105 ease-in duration-300 ml-10`}
         >
-          <Image
-            src={"/../public/developer.png"}
-            height={110}
-            width={350}
-            alt="/"
-            id="IMG"
-          />
+          <Image src={developerPic} height={110} width={350} alt="/" id="IMG" />
         </div>
       </div>
     </div>
